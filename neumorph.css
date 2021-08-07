@@ -4,7 +4,7 @@ body{
 .calcContainer{
   background-color:#5e405b;
   box-shadow:0 4px 14px rgb(25, 26, 23);
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 20px;
   width: 350px;
   border-radius:8px;
@@ -25,12 +25,15 @@ body{
   /* background-color:transparent; */
   padding: 0;
   border-radius: 50%;
-  border: none;
+  border: 1px solid #5e405b;
   outline: none;
   color:rgb(247, 130, 212);
-  background: #5e405b;
+  /* background: #5e405b;
   box-shadow:  2px 2px 5px #2a1d29,
-             -2px -2px 5px #92638d;
+             -2px -2px 5px #92638d; */
+             background: linear-gradient(145deg, #654461, #553a52);
+box-shadow:  3px 3px 8px #352433,
+             -3px -3px 8px #875c83;
 }
 
 .display{
@@ -48,8 +51,8 @@ body{
   text-align: right;
   color:rgb(247, 130, 212);
   background: #5e405b;
-  box-shadow: inset 2px 2px 8px #2a1d29,
-              inset -2px -2px 8px #92638d;
+  box-shadow: inset 2px 2px 6px #2a1d29,
+              inset -2px -2px 6px #92638d;
 }
 
 
@@ -83,8 +86,8 @@ body{
   border: none;
   border-radius: 20%;
   background: #5e405b;
-  box-shadow:  2px 2px 8px #2a1d29,
-             -2px -2px 8px #92638d;
+  box-shadow:  2px 2px 6px #2a1d29,
+             -2px -2px 6px #92638d;
 }
 
 #btn-7{
@@ -164,8 +167,8 @@ body{
   border:none;
   border-radius: 50%;
   background: #5e405b;
-  box-shadow:  2px 2px 8px #2a1d29,
-             -2px -2px 8px #92638d;
+  box-shadow:  2px 2px 6px #2a1d29,
+             -2px -2px 6px #92638d;
 }
 
 #btn-clear{
