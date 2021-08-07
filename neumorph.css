@@ -1,67 +1,65 @@
 body{
-  background-color: rgba(189, 52, 177, 0.637);
+  background: #5e405b;
 }
 .calcContainer{
-  background-color:#5e405b;
-  box-shadow:0 4px 14px rgb(25, 26, 23);
-  margin: 30px auto;
+  background: #5e405b;
+  box-shadow:  4px 4px 7px #352433,
+              -4px -4px 7px #875c83;
+  margin: auto;
   padding: 20px;
   width: 350px;
-  border-radius:8px;
+  border-radius:15px;
 }
 .calc-heading{
+  display: flex;
+  justify-content: center;
   background-color: #5e405b;
   border-radius:8px 8px 0 0;
 }
 
-.calc-heading h2{
-  background-color: #5e405b;
-  display: inline;
-  color:rgb(247, 130, 212)
-}
 
 .power-btn{
-  width: 28px;
-  /* background-color:transparent; */
-  padding: 0;
+  margin:0px;
+  padding: 15px 15px;
   border-radius: 50%;
-  border: 1px solid #5e405b;
+  border: none;
   outline: none;
-  color:rgb(247, 130, 212);
-  /* background: #5e405b;
-  box-shadow:  2px 2px 5px #2a1d29,
-             -2px -2px 5px #92638d; */
-             background: linear-gradient(145deg, #654461, #553a52);
-box-shadow:  3px 3px 8px #352433,
-             -3px -3px 8px #875c83;
+  color:rgb(255, 0, 0);
+  background: #5e405b;
+  box-shadow:  2px 2px 6px #352433,
+              -2px -2px 6px #875c83;
+  transition: .1s;
 }
 
 .display{
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 10px;
 }
 
 #calc-display{
+  display:none;
   height: 90px;
   border: none;
   border-radius:10px;
   font-size: 45px;
   font-weight: bold;
   text-align: right;
-  color:rgb(247, 130, 212);
+  color:red;
   background: #5e405b;
   box-shadow: inset 2px 2px 6px #2a1d29,
               inset -2px -2px 6px #92638d;
+  transition: 2s;
 }
 
 
 .button-container{
   display: none;
   grid-template-columns: repeat(12, 1fr);
-  margin-top: 30px;
+  margin-top: 10px;
   position: relative;
   height: 340px;
+  transiton: .5s
 }
 
 .numberBtns{
@@ -77,8 +75,8 @@ box-shadow:  3px 3px 8px #352433,
   right: 0px;
 }
 
-.btn-number{
-  color:rgb(247, 130, 212);
+.btn-number, .btn-operator{
+  color:red;
   font-size: 1.5em;
   font-weight: bolder;
   margin: 7px;
@@ -86,8 +84,17 @@ box-shadow:  3px 3px 8px #352433,
   border: none;
   border-radius: 20%;
   background: #5e405b;
-  box-shadow:  2px 2px 6px #2a1d29,
-             -2px -2px 6px #92638d;
+  box-shadow:  3px 3px 8px #2a1d29,
+              -3px -3px 8px #92638d;
+  transition: .2s;
+}
+
+.btn-number:active,
+.btn-operator:active,
+.power-btn:active{
+  box-shadow:  1px 1px 3px #2a1d29,
+              -1px -1px 3px #92638d;
+  transform: scale(1,1);
 }
 
 #btn-7{
@@ -159,16 +166,7 @@ box-shadow:  3px 3px 8px #352433,
 }
 
 .btn-operator{
-  margin: 6px;
-  box-shadow: 0 0 3px rgb(35, 73, 48);
-  font-weight: 900;
-  font-size: 20px;
-  color:rgb(247, 130, 212);
-  border:none;
-  border-radius: 50%;
-  background: #5e405b;
-  box-shadow:  2px 2px 6px #2a1d29,
-             -2px -2px 6px #92638d;
+  border-radius:50%;
 }
 
 #btn-clear{
