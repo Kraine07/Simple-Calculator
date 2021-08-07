@@ -58,7 +58,7 @@ buttonDecimal.addEventListener('click', function(){
   const bv = buttonDecimal.textContent;
   formula(bv);
   buttonDecimal.disabled = true;
-  buttonDecimal.style.backgroundColor = 'white';
+  buttonDecimal.style.backgroundColor = '#5e405b';
 });
 
 buttonClear.addEventListener('click',clearScreen);
