@@ -28,12 +28,12 @@ powerButton.addEventListener('click', function(){
 
   if(buttonDisplay.style.display == 'none'){
     buttonDisplay.style.display = 'grid';
-    document.querySelector('.calc-heading').style.backgroundColor = 'rgb(10, 59, 39)';
+    // document.querySelector('.calc-heading').style.backgroundColor = 'rgb(186, 150, 253)';
     calcDisplay.style.display = 'block';
   }
   else{
     buttonDisplay.style.display = 'none';
-    document.querySelector('.calc-heading').style.backgroundColor='black';
+    // document.querySelector('.calc-heading').style.backgroundColor='black';
     calcDisplay.style.display = 'none';
 
   }
