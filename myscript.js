@@ -97,7 +97,7 @@ function setCalcDisplay(value){
 // NUMBER BUTTONS
 function btn0Display(){
   const bv = button0.textContent;
-  setCalcDisplay(bv);
+  formula(bv);
 }
 
 function btn1Display(){
