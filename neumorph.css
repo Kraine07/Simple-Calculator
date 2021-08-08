@@ -1,14 +1,15 @@
 body{
   background: #5e405b;
+  
 }
 .calcContainer{
   background: #5e405b;
-  box-shadow:  4px 4px 7px #352433,
-              -4px -4px 7px #875c83;
-  margin: auto;
+  box-shadow:  3px 4px 10px #352433,
+              -3px -3px 2px #875c83;
+  margin: 20px auto;
   padding: 20px;
   width: 350px;
-  border-radius:15px;
+  border-radius: 12%;
 }
 .calc-heading{
   display: flex;
@@ -26,8 +27,8 @@ body{
   outline: none;
   color:rgb(255, 0, 0);
   background: #5e405b;
-  box-shadow:  2px 2px 6px #352433,
-              -2px -2px 6px #875c83;
+  box-shadow:  3px 3px 10px #352433,
+              -3px -3px 2px #875c83;
   transition: .1s;
 }
 
@@ -42,13 +43,14 @@ body{
   height: 90px;
   border: none;
   border-radius:10px;
+  font-family:  monaco;
   font-size: 45px;
   font-weight: bold;
   text-align: right;
   color:red;
   background: #5e405b;
-  box-shadow: inset 2px 2px 6px #2a1d29,
-              inset -2px -2px 6px #92638d;
+  box-shadow: inset 2px 2px 8px #2a1d29,
+              inset -3px -3px 2px #92638d;
   transition: 2s;
 }
 
@@ -60,7 +62,7 @@ body{
   position: relative;
   height: 340px;
   animation-name: powerUp;
-  animation-duration: .5s;
+  animation-duration: .3s;
 }
 
 @keyframes powerUp {
@@ -82,13 +84,14 @@ body{
 }
 
 @keyframes numberButtons {
-  0%,  20%{
+  0%,  13%{
     box-shadow:  0px 0px 0px #2a1d29,
               0px 0px 0px #92638d;
+    opacity: 0;
   }
   100%{
-    box-shadow: 3px 3px 8px #2a1d29,
-                -3px -3px 8px #92638d;
+    box-shadow: 3px 3px 10px #2a1d29,
+                -2.5px -2.5px 1.5px #92638d;
   }
 }
 
@@ -99,10 +102,10 @@ body{
   margin: 7px;
   outline: none;
   border: none;
-  border-radius: 20%;
+  border-radius: 10px 35%;
   background: #5e405b;
-  box-shadow:  3px 3px 8px #2a1d29,
-              -3px -3px 8px #92638d;
+  box-shadow:  3px 3px 10px #2a1d29,
+              -2.5px -2.5px 1.5px #92638d;
   animation-name: numberButtons;
   animation-duration: 2s;
 }
