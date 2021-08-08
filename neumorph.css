@@ -59,7 +59,13 @@ body{
   margin-top: 10px;
   position: relative;
   height: 340px;
-  transiton: .5s
+  animation-name: powerUp;
+  animation-duration: .5s;
+}
+
+@keyframes powerUp {
+  0%{height: 0px;}
+  100%{height: 340px;}
 }
 
 .numberBtns{
@@ -75,6 +81,17 @@ body{
   right: 0px;
 }
 
+@keyframes numberButtons {
+  0%,  20%{
+    box-shadow:  0px 0px 0px #2a1d29,
+              0px 0px 0px #92638d;
+  }
+  100%{
+    box-shadow: 3px 3px 8px #2a1d29,
+                -3px -3px 8px #92638d;
+  }
+}
+
 .btn-number, .btn-operator{
   color:red;
   font-size: 1.5em;
@@ -86,7 +103,8 @@ body{
   background: #5e405b;
   box-shadow:  3px 3px 8px #2a1d29,
               -3px -3px 8px #92638d;
-  transition: .2s;
+  animation-name: numberButtons;
+  animation-duration: 2s;
 }
 
 .btn-number:active,

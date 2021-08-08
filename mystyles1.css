@@ -91,10 +91,8 @@ body{
   top: 0px;
   left: 0px;
   right: 0px;
-  /* transform: translateX(-700px); */
   animation-name: numbtns;
   animation-duration: 1s;
-  /* animation-delay: 2s; */
 }
 .btn-number{
   box-shadow: 0 0 7px darkgreen;
