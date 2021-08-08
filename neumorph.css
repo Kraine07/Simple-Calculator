@@ -4,12 +4,13 @@ body{
 }
 .calcContainer{
   background: #5e405b;
-  box-shadow:  3px 4px 10px #352433,
-              -3px -3px 2px #875c83;
+  box-shadow:  3px 4px 19px #352433,
+                -3px -4px 19px #352433;
+              /* -4px -4px 8px #875c83; */
   margin: 20px auto;
   padding: 20px;
   width: 350px;
-  border-radius: 12%;
+  /* border-radius: 12%; */
 }
 .calc-heading{
   display: flex;
@@ -28,7 +29,7 @@ body{
   color:rgb(255, 0, 0);
   background: #5e405b;
   box-shadow:  3px 3px 10px #352433,
-              -3px -3px 2px #875c83;
+              -2px -2px 2px #875c83;
   transition: .1s;
 }
 
