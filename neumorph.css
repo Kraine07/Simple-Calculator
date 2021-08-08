@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
 body{
   background: #5e405b;
   
@@ -37,22 +41,22 @@ body{
   display: flex;
   justify-content: center;
   margin: 10px;
+  border-radius:10px;
+  background: #5e405b;
+  box-shadow: inset 3px 3px 8px #2a1d29,
+              inset -3px -3px 2px #92638d;
 }
 
 #calc-display{
   display:none;
-  height: 90px;
+  background: transparent;
+  height: 70px;
   border: none;
-  border-radius:10px;
-  font-family:  monaco;
+  font-family: 'Share Tech Mono', monospace;
   font-size: 45px;
   font-weight: bold;
   text-align: right;
   color:red;
-  background: #5e405b;
-  box-shadow: inset 2px 2px 8px #2a1d29,
-              inset -3px -3px 2px #92638d;
-  transition: 2s;
 }
 
 
@@ -97,9 +101,10 @@ body{
 }
 
 .btn-number, .btn-operator{
-  color:red;
-  font-size: 1.5em;
-  font-weight: bolder;
+  color:orangered;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.8em;
+  font-weight: 900;
   margin: 7px;
   outline: none;
   border: none;
