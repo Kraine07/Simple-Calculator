@@ -3,7 +3,7 @@
 
 body{
   background: #5e405b;
-  
+
 }
 .calcContainer{
   background: #5e405b;
@@ -13,7 +13,6 @@ body{
   margin: 20px auto;
   padding: 20px;
   width: 350px;
-  /* border-radius: 12%; */
 }
 .calc-heading{
   display: flex;
@@ -58,7 +57,9 @@ body{
   color:red;
   padding: 0 10px;
 }
-
+#calc-display:focus{
+  outline: none;
+}
 
 .button-container{
   display: none;
