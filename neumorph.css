@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 
 body{
@@ -52,11 +51,12 @@ body{
   background: transparent;
   height: 70px;
   border: none;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Play', sans-serif;
   font-size: 45px;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: right;
   color:red;
+  padding: 0 10px;
 }
 
 
@@ -67,7 +67,7 @@ body{
   position: relative;
   height: 340px;
   animation-name: powerUp;
-  animation-duration: .3s;
+  animation-duration: .5s;
 }
 
 @keyframes powerUp {
@@ -102,9 +102,9 @@ body{
 
 .btn-number, .btn-operator{
   color:orangered;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Play', sans-serif;
   font-size: 1.8em;
-  font-weight: 900;
+  /* font-weight: 900; */
   margin: 7px;
   outline: none;
   border: none;
